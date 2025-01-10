@@ -25,6 +25,7 @@ typedef struct binary_tree_struct binary_tree_t;
 
 /* Task function prototypes*/
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
-binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int view) 
+binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value); 
+
 
 #endif
